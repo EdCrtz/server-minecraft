@@ -1,48 +1,35 @@
-[30Apr2020 23:08:29.463] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.1.0, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, nogui]
-[30Apr2020 23:08:29.468] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_242 by Oracle Corporation
-[30Apr2020 23:08:29.746] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[30Apr2020 23:08:31.528] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[30Apr2020 23:08:48.044] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[30Apr2020 23:08:48.050] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[30Apr2020 23:08:48.054] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[30Apr2020 23:08:48.060] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[30Apr2020 23:08:48.066] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[30Apr2020 23:08:48.224] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
-[30Apr2020 23:08:50.876] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.0, for MC 1.15.2 with MCP 20200122.131323
-[30Apr2020 23:08:50.877] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.0 Initialized
-[30Apr2020 23:08:51.798] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[30Apr2020 23:08:51.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[30Apr2020 23:08:51.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
-[30Apr2020 23:08:51.807] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[30Apr2020 23:08:52.107] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[30Apr2020 23:08:52.172] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[30Apr2020 23:08:52.594] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.1.0 Target: null
-[30Apr2020 23:08:52.624] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[30Apr2020 23:08:52.624] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[30Apr2020 23:08:52.624] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[30Apr2020 23:08:52.625] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[30Apr2020 23:08:54.179] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[30Apr2020 23:08:54.873] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.1.0-universal.jar
-[30Apr2020 23:08:56.769] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[30Apr2020 23:08:58.097] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
-[30Apr2020 23:09:31.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[30Apr2020 23:09:33.782] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[30Apr2020 23:09:33.784] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[30Apr2020 23:09:33.788] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[30Apr2020 23:09:33.790] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[30Apr2020 23:09:33.791] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[30Apr2020 23:09:34.088] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[30Apr2020 23:09:34.596] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 59%
-[30Apr2020 23:09:35.602] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 4042 ms
-[30Apr2020 23:09:35.605] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (41.607s)! For help, type "help"
-[30Apr2020 23:09:37.463] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[30Apr2020 23:09:37.466] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[30Apr2020 23:09:37.811] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[30Apr2020 23:13:52.648] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: monchiwi[/189.186.29.120:49855] logged in with entity id 16447 at (2448.1880608724036, 69.0, 2044.795896133794)
-[30Apr2020 23:13:52.740] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: monchiwi joined the game
-[30Apr2020 23:13:52.787] [Netty Epoll Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@6edfb2e6 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
-[30Apr2020 23:13:52.787] [Netty Epoll Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@56c022d4 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
-[30Apr2020 23:13:54.590] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2339ms or 46 ticks behind
-[30Apr2020 23:14:55.952] [Server Watchdog/FATAL] [net.minecraft.server.dedicated.ServerHangWatchdog/]: A single server tick took 60.00 seconds (should be max 0.05)
-[30Apr2020 23:14:55.953] [Server Watchdog/FATAL] [net.minecraft.server.dedicated.ServerHangWatchdog/]: Considering it to be crashed, server will forcibly shutdown.
-[30Apr2020 23:14:56.122] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerHangWatchdog/]: This crash report has been saved to: /home/lalo/server-minecraft/./crash-reports/crash-2020-04-30_23.14.56-server.txt
+[01May2020 21:10:47.684] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.1.0, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge]
+[01May2020 21:10:47.691] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_242 by Oracle Corporation
+[01May2020 21:10:47.956] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[01May2020 21:10:49.862] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[01May2020 21:11:07.330] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01May2020 21:11:07.333] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01May2020 21:11:07.335] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01May2020 21:11:07.337] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01May2020 21:11:07.339] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01May2020 21:11:07.443] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
+[01May2020 21:11:08.575] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.0, for MC 1.15.2 with MCP 20200122.131323
+[01May2020 21:11:08.576] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.0 Initialized
+[01May2020 21:11:10.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01May2020 21:11:10.035] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01May2020 21:11:10.035] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01May2020 21:11:10.049] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[01May2020 21:11:10.545] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01May2020 21:11:10.712] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[01May2020 21:11:11.018] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.1.0 Target: null
+[01May2020 21:11:11.135] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01May2020 21:11:11.136] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01May2020 21:11:11.136] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01May2020 21:11:11.137] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01May2020 21:11:12.390] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01May2020 21:11:13.069] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.1.0-universal.jar
+[01May2020 21:11:14.685] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[01May2020 21:11:15.845] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[01May2020 21:11:19.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01May2020 21:11:22.769] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01May2020 21:11:22.773] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01May2020 21:11:22.778] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01May2020 21:11:22.781] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01May2020 21:11:22.782] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01May2020 21:11:22.786] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01May2020 21:11:23.424] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
